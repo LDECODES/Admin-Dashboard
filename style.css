@@ -1,4 +1,20 @@
 body {
-  background-color: blueviolet;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 97vh;
+    
+}
+
+.sidebar {
+    
+}
+
+.right-side {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
 }
 
