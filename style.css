@@ -21,5 +21,33 @@ svg {
 .right-side {
     display: grid;
     grid-template-rows: 1fr 4fr;
+
 }
+.header {
+    display: grid;
+    grid-template-rows: 4fr 6fr;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+}
+
+.right-con {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+
 
