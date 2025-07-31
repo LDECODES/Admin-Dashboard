@@ -1,12 +1,14 @@
-body {
-    background-color: white;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    height: 97vh;
+    height: 100vh;
     
 }
 
@@ -17,6 +19,17 @@ body {
 svg {
     
 }
+
+#projects > div {
+    background-color: aqua;
+    width: 300px;
+    height: 90px;
+    margin: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+
+}
+
 
 .right-side {
     display: grid;
@@ -41,6 +54,9 @@ svg {
 .content {
     display: grid;
     grid-template-columns: 7fr 2fr;
+    padding: 20px;
+    
+    
 }
 
 .right-con {
