@@ -13,6 +13,10 @@
 }
 
 .sidebar {
+    display: grid;
+    grid-template-rows: 2fr 6fr 3fr;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -20,14 +24,38 @@ svg {
     
 }
 
+
+ul , li {
+    list-style: none;
+}
+
+.project {
+    display: grid;
+    grid-template-rows: 1fr 50fr;
+
+}
+
 #projects > div {
     background-color: aqua;
     width: 300px;
     height: 90px;
     margin: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
 
 
+}
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+
+
+
+.ann-card {
+    height: 20em;
+    border: 1px solid black;
 }
 
 
@@ -59,9 +87,22 @@ svg {
     
 }
 
+.left-con {
+    display: grid;
+}
+
 .right-con {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.buttons {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: center ;
+    justify-content: center;
 }
 
 
