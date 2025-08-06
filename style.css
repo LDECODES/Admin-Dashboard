@@ -29,9 +29,10 @@ ul , li {
     list-style: none;
 }
 
-.project {
+.projects {
     display: grid;
-    grid-template-rows: 1fr 50fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 20fr;
 
 }
 
