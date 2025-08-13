@@ -17,14 +17,28 @@
 
 .sidebar {
     display: grid;
-   
-    grid-template-rows: 1fr 3fr 6fr;
+    grid-template-rows: 0.35fr 1.5fr 2fr;
     background-color: #81b5f0;
     color: white;
     font-size: larger;
     font-weight: bolder;
     border-right: 3px solid black;
 
+}
+
+.customize {
+    display: grid;
+    align-self: start;
+    height: 80%;
+}
+
+#UI > div , #customize > div , .logo {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    gap: 15px;
+    height: 40px;
+    align-items: center;
+    fill: white;
 }
 
 .search {
@@ -235,7 +249,6 @@ p {
     border-radius: 20px;
     background-color: white;
     gap: 5px;
-
 }
 .left-con {
     display: grid;
